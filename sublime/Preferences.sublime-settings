@@ -13,11 +13,9 @@
 	"font_size": 9,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
-	"ignored_packages":
-	[
-		"Vintage"
-	],
 	"indent_to_bracket": false,
+	"move_to_limit_on_up_down": true,
+	"scroll_past_end": true,
 	"shift_tab_unindent": true,
 	"show_tab_close_buttons": false,
 	"smart_indent": true,
@@ -26,5 +24,9 @@
 	"translate_tabs_to_spaces": false,
 	"trim_trailing_white_space_on_save": true,
 	"use_tab_stop": true,
-	"word_wrap": false
+	"word_wrap": false,
+	"ignored_packages":
+	[
+		"Vintage"
+	]
 }
