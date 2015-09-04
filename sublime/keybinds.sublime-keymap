@@ -3,6 +3,8 @@
     { "keys": ["ctrl+shift+tab"], "command": "unindent" },
 
     // Relieve OS X pain
+    { "keys": ["ctrl+k"], "command": "noop" },
+
     { "keys": ["ctrl+shift+n"], "command": "new_window" },
     { "keys": ["ctrl+shift+w"], "command": "close_window" },
     { "keys": ["ctrl+o"], "command": "prompt_open" },
@@ -83,6 +85,8 @@
     { "keys": ["ctrl+shift+p"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
     { "keys": ["ctrl+r"], "command": "show_overlay", "args": {"overlay": "goto", "text": "@"} },
     { "keys": ["ctrl+g"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
+    { "keys": ["ctrl+k", "ctrl+b"], "command": "toggle_side_bar" },
+
 
     { "keys": ["super+c"], "command": "toggle_case_sensitive", "context":
         [
