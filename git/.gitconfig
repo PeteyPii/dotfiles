@@ -1,0 +1,12 @@
+[user]
+	name = Patrick Wrobel
+	email = pwrobel@uwaterloo.ca
+[alias]
+	st = status
+	co = checkout
+	pick = cherry-pick
+	br = branch	
+[push]
+	default = simple
+[core]
+	whitespace = cr-at-eol
