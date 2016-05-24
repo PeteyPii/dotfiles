@@ -1,0 +1,14 @@
+Host school
+  HostName linux.student.cs.uwaterloo.ca
+  IdentityFile ~/.ssh/cs_rsa
+  User pwrobel
+
+Host github.com
+  IdentityFile ~/.ssh/github_rsa
+  User git
+
+Host ecelinux
+  HostName ecelinux.uwaterloo.ca
+  IdentityFile ~/.ssh/cs_rsa
+  User pwrobel
+  ProxyCommand ssh -q school nc -q0 ecelinux.uwaterloo.ca 22
