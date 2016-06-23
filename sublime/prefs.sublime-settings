@@ -1,5 +1,5 @@
 {
-  "auto_complete_selector": "text.xml, source - comment, text.html",
+  "auto_complete_selector": "text, source - comment",
   "auto_indent": true,
   "auto_match_enabled": false,
   "close_windows_when_empty": false,
