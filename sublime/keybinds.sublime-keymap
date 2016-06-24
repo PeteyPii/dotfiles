@@ -2,6 +2,11 @@
   { "keys": ["ctrl+tab"], "command": "reindent" , "args": { "single_line": true } },
   { "keys": ["ctrl+shift+tab"], "command": "unindent" },
 
+  // Ubuntu keybinds
+  { "keys": ["ctrl+alt+up"], "command": "select_lines", "args": {"forward": false} },
+  { "keys": ["ctrl+alt+down"], "command": "select_lines", "args": {"forward": true} },
+  { "keys": ["ctrl+/"], "command": "auto_complete" },
+
   // Relieve OS X pain
   { "keys": ["ctrl+k"], "command": "noop" },
 
