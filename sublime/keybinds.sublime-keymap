@@ -1,6 +1,7 @@
 [
   { "keys": ["ctrl+tab"], "command": "reindent" , "args": { "single_line": true } },
   { "keys": ["ctrl+shift+tab"], "command": "unindent" },
+  { "keys": ["ctrl+alt+p"], "command": "prompt_select_workspace" },
 
   // Relieve OS X pain
   { "keys": ["ctrl+k"], "command": "noop" },
