@@ -6,7 +6,7 @@
   // Ubuntu keybinds
   { "keys": ["ctrl+alt+up"], "command": "select_lines", "args": {"forward": false} },
   { "keys": ["ctrl+alt+down"], "command": "select_lines", "args": {"forward": true} },
-  { "keys": ["ctrl+/"], "command": "auto_complete" },
+  { "keys": ["ctrl+space"], "command": "auto_complete" },
 
   // Relieve OS X pain
   { "keys": ["ctrl+k"], "command": "noop" },
