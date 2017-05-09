@@ -5,4 +5,4 @@ alias la='ls -a'
 alias lla='ls -la'
 alias yt2mp3='youtube-dl -x --audio-format mp3'
 
-source ~/.git-prompt.sh
+. ~/.git-prompt.sh
