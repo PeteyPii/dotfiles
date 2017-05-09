@@ -16,3 +16,9 @@ Host ecelinux
 Host server
   HostName patrickwrobel.ca
   User patrick
+
+Host ugster
+  HostName ugster18.student.cs.uwaterloo.ca
+  IdentityFile ~/.ssh/id_rsa
+  User pwrobel
+  ProxyCommand ssh -q school nc -q0 ugster18.student.cs.uwaterloo.ca 22
