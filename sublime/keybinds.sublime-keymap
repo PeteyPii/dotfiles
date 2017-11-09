@@ -2,6 +2,7 @@
   { "keys": ["ctrl+tab"], "command": "reindent" , "args": { "single_line": true } },
   { "keys": ["ctrl+shift+tab"], "command": "unindent" },
   { "keys": ["ctrl+alt+p"], "command": "prompt_select_workspace" },
+  { "keys": ["alt+o"], "command": "switch_file", "args": {"extensions": ["cpp", "cxx", "cc", "c", "hpp", "hxx", "hh", "h", "ipp", "inl", "m", "mm", "js", "css"]} },
 
   // Ubuntu keybinds
   { "keys": ["ctrl+alt+up"], "command": "select_lines", "args": {"forward": false} },
