@@ -10,3 +10,5 @@
   default = simple
 [core]
   whitespace = cr-at-eol
+  autocrlf = input
+  eol = lf

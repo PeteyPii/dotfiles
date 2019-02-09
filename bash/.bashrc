@@ -5,6 +5,8 @@ alias ll='ls -l'
 alias la='ls -a'
 alias lla='ls -la'
 alias yt2mp3='youtube-dl -x --audio-format mp3'
-alias make="/usr/bin/make -j 8 -O"
+alias make="make -j 8"
+
+export PATH=~/bin:"$PATH"
 
 . ~/.git-prompt.sh
